@@ -8,6 +8,7 @@
 		</div>
 		<?php endif; ?>
 		<?php while( have_posts() ): the_post(); ?>
+
 		<div id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
 			<?php
 			$full_image = '';
