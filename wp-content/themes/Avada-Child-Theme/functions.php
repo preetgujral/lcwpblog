@@ -33,7 +33,7 @@ add_filter( 'pre_get_posts', 'my_cptui_add_post_types_to_archives' );
 
 function add_my_post_types_to_query( $query ) {
 	if ( is_home() && $query->is_main_query() )
-		$query->set( 'post_type', array( 'post', 'opeds', 'videos' ) );
+		$query->set( 'post_type', array( 'post', 'opeds', 'videos', 'books' ) );
 	return $query;
 }
 
