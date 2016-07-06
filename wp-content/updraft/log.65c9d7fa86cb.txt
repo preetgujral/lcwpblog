@@ -1,0 +1,433 @@
+0133.295 (1) Opened log file at time: Tue, 05 Jul 2016 21:36:27 +0000 on http://lcwpblog.dev
+0133.296 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux PSG-SP2-U14043 3.19.0-64-generic #72~14.04.1-Ubuntu SMP Fri Jun 24 17:59:48 UTC 2016 x86_64) MySQL: 5.5.49 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.1M | 8.5M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+0133.298 (1) Free space on disk containing Updraft's temporary directory: 1330.7 MB
+0133.308 (1) Backup run: resumption=1, nonce=65c9d7fa86cb, begun at=1467754454 (133s ago), job type=backup, previous check-in=7.9s
+0133.314 (1) Scheduling a resumption (2) after 300 seconds (1467754887) in case this run gets aborted
+0133.325 (1) Checking if we have a zip executable available
+0133.331 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0133.337 (1) Creation of backups of directories: already finished
+0133.343 (1) Saving backup status to database (elements: 8)
+0133.357 (1) Database dump (WordPress DB): Creation was completed already
+0133.370 (1) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0133.377 (1) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0133.382 (1) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0133.389 (1) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: others: This file has not yet been successfully uploaded: will queue
+0133.394 (1) backup_2016-07-05-2134_Lloyd_Constantine_65c9d7fa86cb-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/preet/sites/lcwpblog/webroot/wp-content/updraft/backup_2016-07-05-2134_Lloyd_Constantine_65c9d7fa86cb-db.gz)
+0133.399 (1) Recording as successfully uploaded: backup_2016-07-05-2134_Lloyd_Constantine_65c9d7fa86cb-db.gz (45f7896469ec3cb91492f3a9257a97c9)
+0133.409 (1) Saving backup history. Total backup size: Unknown
+0133.414 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0133.418 (1) Cloud backup selection (1/1): email (last)
+0133.420 (1) Beginning dispatch of backup to remote (email)
+0133.422 (1) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: email to: preet...
+0133.532 (1) Mails were not sent successfully
+0133.535 (1) [Warning] backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: This backup archive is 34.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0133.537 (1) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: email to: preet...
+0133.887 (1) Mails were not sent successfully
+0133.900 (1) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: email to: preet...
+0133.990 (1) Mails were not sent successfully
+0133.996 (1) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: email to: preet...
+0134.005 (1) Mails were not sent successfully
+0134.018 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0134.024 (1) Number of backup sets in history: 2; groups (db): 1
+0134.026 (1) Examining (for databases) backup set with group_id=0, nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+0134.027 (1) This backup set is the backup set just made, so will not be deleted.
+0134.029 (1) Examining (for databases) backup set with group_id=0, nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+0134.031 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0134.032 (1) Number of backup sets in history: 2; groups (files): 1
+0134.034 (1) Examining (for files) backup set with nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+0134.036 (1) This backup set is the backup set just made, so will not be deleted.
+0134.038 (1) This backup set is the backup set just made, so will not be deleted.
+0134.038 (1) This backup set is the backup set just made, so will not be deleted.
+0134.038 (1) This backup set is the backup set just made, so will not be deleted.
+0134.038 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0134.040 (1) Examining (for files) backup set with nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+0134.041 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0134.043 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0134.047 (1) Resume backup (65c9d7fa86cb, 1): finish run
+0134.051 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0134.055 (1) The backup has not finished; a resumption is scheduled
+0436.759 (2) Opened log file at time: Tue, 05 Jul 2016 21:41:31 +0000 on http://lcwpblog.dev
+0436.761 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux PSG-SP2-U14043 3.19.0-64-generic #72~14.04.1-Ubuntu SMP Fri Jun 24 17:59:48 UTC 2016 x86_64) MySQL: 5.5.49 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.8M | 8M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+0436.763 (2) Free space on disk containing Updraft's temporary directory: 1337.3 MB
+0436.771 (2) Backup run: resumption=2, nonce=65c9d7fa86cb, begun at=1467754454 (437s ago), job type=backup
+0436.778 (2) Scheduling a resumption (3) after 300 seconds (1467755191) in case this run gets aborted
+0436.791 (2) Checking if we have a zip executable available
+0436.797 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0436.803 (2) Creation of backups of directories: already finished
+0436.809 (2) Saving backup status to database (elements: 8)
+0436.822 (2) Database dump (WordPress DB): Creation was completed already
+0436.835 (2) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0436.838 (2) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0436.840 (2) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0436.842 (2) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: others: This file has not yet been successfully uploaded: will queue
+0436.844 (2) backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/preet/sites/lcwpblog/webroot/wp-content/updraft/backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz)
+0436.848 (2) Recording as successfully uploaded: backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz (b452a10fdb98d018c0102859c0abac34)
+0436.855 (2) Saving backup history. Total backup size: Unknown
+0436.861 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+0436.865 (2) Cloud backup selection (1/1): email (last)
+0436.867 (2) Beginning dispatch of backup to remote (email)
+0436.868 (2) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: email to: preet...
+0436.988 (2) Mails were not sent successfully
+0436.994 (2) [Warning] backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: This backup archive is 34.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0437.000 (2) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: email to: preet...
+0437.287 (2) Mails were not sent successfully
+0437.293 (2) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: email to: preet...
+0437.405 (2) Mails were not sent successfully
+0437.412 (2) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: email to: preet...
+0437.424 (2) Mails were not sent successfully
+0437.437 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0437.443 (2) Number of backup sets in history: 2; groups (db): 1
+0437.449 (2) Examining (for databases) backup set with group_id=0, nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+0437.455 (2) This backup set is the backup set just made, so will not be deleted.
+0437.460 (2) Examining (for databases) backup set with group_id=0, nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+0437.464 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0437.467 (2) Number of backup sets in history: 2; groups (files): 1
+0437.469 (2) Examining (for files) backup set with nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+0437.472 (2) This backup set is the backup set just made, so will not be deleted.
+0437.475 (2) This backup set is the backup set just made, so will not be deleted.
+0437.475 (2) This backup set is the backup set just made, so will not be deleted.
+0437.475 (2) This backup set is the backup set just made, so will not be deleted.
+0437.476 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0437.477 (2) Examining (for files) backup set with nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+0437.479 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0437.480 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0437.485 (2) Resume backup (65c9d7fa86cb, 2): finish run
+0437.489 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0437.493 (2) The backup has not finished; a resumption is scheduled
+1237.420 (3) Opened log file at time: Tue, 05 Jul 2016 21:54:51 +0000 on http://lcwpblog.dev
+1237.425 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux PSG-SP2-U14043 3.19.0-64-generic #72~14.04.1-Ubuntu SMP Fri Jun 24 17:59:48 UTC 2016 x86_64) MySQL: 5.5.49 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.8M | 8M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+1237.427 (3) Free space on disk containing Updraft's temporary directory: 1358.2 MB
+1237.432 (3) Backup run: resumption=3, nonce=65c9d7fa86cb, begun at=1467754454 (1237s ago), job type=backup
+1237.435 (3) Scheduling a resumption (4) after 300 seconds (1467755991) in case this run gets aborted
+1237.444 (3) Checking if we have a zip executable available
+1237.450 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1237.456 (3) Creation of backups of directories: already finished
+1237.463 (3) Saving backup status to database (elements: 8)
+1237.475 (3) Database dump (WordPress DB): Creation was completed already
+1237.490 (3) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1237.496 (3) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1237.501 (3) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1237.507 (3) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: others: This file has not yet been successfully uploaded: will queue
+1237.513 (3) backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/preet/sites/lcwpblog/webroot/wp-content/updraft/backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz)
+1237.525 (3) Recording as successfully uploaded: backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz (b452a10fdb98d018c0102859c0abac34)
+1237.539 (3) Saving backup history. Total backup size: Unknown
+1237.543 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+1237.547 (3) Cloud backup selection (1/1): email (last)
+1237.548 (3) Beginning dispatch of backup to remote (email)
+1237.550 (3) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: email to: preet...
+1237.728 (3) Mails were not sent successfully
+1237.732 (3) [Warning] backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: This backup archive is 34.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1237.736 (3) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: email to: preet...
+1238.235 (3) Mails were not sent successfully
+1238.239 (3) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: email to: preet...
+1238.346 (3) Mails were not sent successfully
+1238.349 (3) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: email to: preet...
+1238.360 (3) Mails were not sent successfully
+1238.365 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+1238.367 (3) Number of backup sets in history: 2; groups (db): 1
+1238.373 (3) Examining (for databases) backup set with group_id=0, nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+1238.380 (3) This backup set is the backup set just made, so will not be deleted.
+1238.387 (3) Examining (for databases) backup set with group_id=0, nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+1238.393 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1238.400 (3) Number of backup sets in history: 2; groups (files): 1
+1238.408 (3) Examining (for files) backup set with nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+1238.413 (3) This backup set is the backup set just made, so will not be deleted.
+1238.419 (3) This backup set is the backup set just made, so will not be deleted.
+1238.420 (3) This backup set is the backup set just made, so will not be deleted.
+1238.420 (3) This backup set is the backup set just made, so will not be deleted.
+1238.420 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1238.426 (3) Examining (for files) backup set with nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+1238.432 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1238.438 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1238.450 (3) Resume backup (65c9d7fa86cb, 3): finish run
+1238.460 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1238.464 (3) The backup has not finished; a resumption is scheduled
+1809.215 (4) Opened log file at time: Tue, 05 Jul 2016 22:04:23 +0000 on http://lcwpblog.dev
+1809.220 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux PSG-SP2-U14043 3.19.0-64-generic #72~14.04.1-Ubuntu SMP Fri Jun 24 17:59:48 UTC 2016 x86_64) MySQL: 5.5.49 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.8M | 8M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+1809.226 (4) Free space on disk containing Updraft's temporary directory: 1358.9 MB
+1809.239 (4) Backup run: resumption=4, nonce=65c9d7fa86cb, begun at=1467754454 (1809s ago), job type=backup
+1809.245 (4) Scheduling a resumption (5) after 300 seconds (1467756563) in case this run gets aborted
+1809.257 (4) Checking if we have a zip executable available
+1809.263 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1809.269 (4) Creation of backups of directories: already finished
+1809.276 (4) Saving backup status to database (elements: 8)
+1809.289 (4) Database dump (WordPress DB): Creation was completed already
+1809.301 (4) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1809.303 (4) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1809.305 (4) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1809.307 (4) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: others: This file has not yet been successfully uploaded: will queue
+1809.308 (4) backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/preet/sites/lcwpblog/webroot/wp-content/updraft/backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz)
+1809.316 (4) Recording as successfully uploaded: backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz (b452a10fdb98d018c0102859c0abac34)
+1809.325 (4) Saving backup history. Total backup size: Unknown
+1809.332 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+1809.336 (4) Cloud backup selection (1/1): email (last)
+1809.338 (4) Beginning dispatch of backup to remote (email)
+1809.340 (4) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: email to: preet...
+1809.471 (4) Mails were not sent successfully
+1809.479 (4) [Warning] backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: This backup archive is 34.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1809.485 (4) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: email to: preet...
+1809.841 (4) Mails were not sent successfully
+1809.845 (4) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: email to: preet...
+1809.923 (4) Mails were not sent successfully
+1809.925 (4) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: email to: preet...
+1809.932 (4) Mails were not sent successfully
+1809.937 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+1809.941 (4) Number of backup sets in history: 2; groups (db): 1
+1809.947 (4) Examining (for databases) backup set with group_id=0, nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+1809.952 (4) This backup set is the backup set just made, so will not be deleted.
+1809.958 (4) Examining (for databases) backup set with group_id=0, nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+1809.963 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1809.969 (4) Number of backup sets in history: 2; groups (files): 1
+1809.975 (4) Examining (for files) backup set with nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+1809.980 (4) This backup set is the backup set just made, so will not be deleted.
+1809.986 (4) This backup set is the backup set just made, so will not be deleted.
+1809.986 (4) This backup set is the backup set just made, so will not be deleted.
+1809.986 (4) This backup set is the backup set just made, so will not be deleted.
+1809.986 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1809.992 (4) Examining (for files) backup set with nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+1809.998 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1810.003 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1810.028 (4) Resume backup (65c9d7fa86cb, 4): finish run
+1810.037 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1810.040 (4) The backup has not finished; a resumption is scheduled
+2229.988 (5) Opened log file at time: Tue, 05 Jul 2016 22:11:24 +0000 on http://lcwpblog.dev
+2229.991 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux PSG-SP2-U14043 3.19.0-64-generic #72~14.04.1-Ubuntu SMP Fri Jun 24 17:59:48 UTC 2016 x86_64) MySQL: 5.5.49 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.8M | 8M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+2229.992 (5) Free space on disk containing Updraft's temporary directory: 1361.2 MB
+2229.996 (5) Backup run: resumption=5, nonce=65c9d7fa86cb, begun at=1467754454 (2230s ago), job type=backup
+2229.999 (5) Scheduling a resumption (6) after 300 seconds (1467756984) in case this run gets aborted
+2230.002 (5) Checking if we have a zip executable available
+2230.004 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+2230.006 (5) Creation of backups of directories: already finished
+2230.008 (5) Saving backup status to database (elements: 8)
+2230.022 (5) Database dump (WordPress DB): Creation was completed already
+2230.035 (5) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2230.041 (5) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2230.048 (5) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2230.054 (5) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: others: This file has not yet been successfully uploaded: will queue
+2230.060 (5) backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/preet/sites/lcwpblog/webroot/wp-content/updraft/backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz)
+2230.073 (5) Recording as successfully uploaded: backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz (b452a10fdb98d018c0102859c0abac34)
+2230.100 (5) Saving backup history. Total backup size: Unknown
+2230.105 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+2230.109 (5) Cloud backup selection (1/1): email (last)
+2230.111 (5) Beginning dispatch of backup to remote (email)
+2230.115 (5) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: email to: preet...
+2230.241 (5) Mails were not sent successfully
+2230.244 (5) [Warning] backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: This backup archive is 34.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2230.246 (5) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: email to: preet...
+2230.649 (5) Mails were not sent successfully
+2230.653 (5) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: email to: preet...
+2230.740 (5) Mails were not sent successfully
+2230.743 (5) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: email to: preet...
+2230.749 (5) Mails were not sent successfully
+2230.753 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+2230.756 (5) Number of backup sets in history: 2; groups (db): 1
+2230.757 (5) Examining (for databases) backup set with group_id=0, nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+2230.763 (5) This backup set is the backup set just made, so will not be deleted.
+2230.768 (5) Examining (for databases) backup set with group_id=0, nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+2230.774 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2230.779 (5) Number of backup sets in history: 2; groups (files): 1
+2230.785 (5) Examining (for files) backup set with nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+2230.790 (5) This backup set is the backup set just made, so will not be deleted.
+2230.796 (5) This backup set is the backup set just made, so will not be deleted.
+2230.796 (5) This backup set is the backup set just made, so will not be deleted.
+2230.796 (5) This backup set is the backup set just made, so will not be deleted.
+2230.796 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2230.802 (5) Examining (for files) backup set with nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+2230.808 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2230.814 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2230.826 (5) Resume backup (65c9d7fa86cb, 5): finish run
+2230.838 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2230.843 (5) The backup has not finished; a resumption is scheduled
+3017.928 (6) Opened log file at time: Tue, 05 Jul 2016 22:24:32 +0000 on http://lcwpblog.dev
+3017.935 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux PSG-SP2-U14043 3.19.0-64-generic #72~14.04.1-Ubuntu SMP Fri Jun 24 17:59:48 UTC 2016 x86_64) MySQL: 5.5.49 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.8M | 8M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+3017.941 (6) Free space on disk containing Updraft's temporary directory: 1363.9 MB
+3017.948 (6) Backup run: resumption=6, nonce=65c9d7fa86cb, begun at=1467754454 (3018s ago), job type=backup
+3017.951 (6) Scheduling a resumption (7) after 300 seconds (1467757772) in case this run gets aborted
+3017.957 (6) Checking if we have a zip executable available
+3017.960 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+3017.964 (6) Creation of backups of directories: already finished
+3017.976 (6) Saving backup status to database (elements: 8)
+3017.993 (6) Database dump (WordPress DB): Creation was completed already
+3018.006 (6) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3018.013 (6) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3018.020 (6) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3018.025 (6) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: others: This file has not yet been successfully uploaded: will queue
+3018.027 (6) backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/preet/sites/lcwpblog/webroot/wp-content/updraft/backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz)
+3018.032 (6) Recording as successfully uploaded: backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz (b452a10fdb98d018c0102859c0abac34)
+3018.044 (6) Saving backup history. Total backup size: Unknown
+3018.051 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+3018.057 (6) Cloud backup selection (1/1): email (last)
+3018.059 (6) Beginning dispatch of backup to remote (email)
+3018.062 (6) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: email to: preet...
+3018.225 (6) Mails were not sent successfully
+3018.236 (6) [Warning] backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: This backup archive is 34.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+3018.242 (6) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: email to: preet...
+3018.861 (6) Mails were not sent successfully
+3018.867 (6) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: email to: preet...
+3018.985 (6) Mails were not sent successfully
+3018.991 (6) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: email to: preet...
+3019.003 (6) Mails were not sent successfully
+3019.018 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+3019.027 (6) Number of backup sets in history: 2; groups (db): 1
+3019.033 (6) Examining (for databases) backup set with group_id=0, nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+3019.039 (6) This backup set is the backup set just made, so will not be deleted.
+3019.046 (6) Examining (for databases) backup set with group_id=0, nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+3019.049 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3019.051 (6) Number of backup sets in history: 2; groups (files): 1
+3019.054 (6) Examining (for files) backup set with nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+3019.057 (6) This backup set is the backup set just made, so will not be deleted.
+3019.059 (6) This backup set is the backup set just made, so will not be deleted.
+3019.060 (6) This backup set is the backup set just made, so will not be deleted.
+3019.060 (6) This backup set is the backup set just made, so will not be deleted.
+3019.060 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3019.063 (6) Examining (for files) backup set with nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+3019.065 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+3019.067 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3019.074 (6) Resume backup (65c9d7fa86cb, 6): finish run
+3019.078 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3019.083 (6) The backup has not finished; a resumption is scheduled
+3418.212 (7) Opened log file at time: Tue, 05 Jul 2016 22:31:12 +0000 on http://lcwpblog.dev
+3418.219 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux PSG-SP2-U14043 3.19.0-64-generic #72~14.04.1-Ubuntu SMP Fri Jun 24 17:59:48 UTC 2016 x86_64) MySQL: 5.5.49 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.8M | 8M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+3418.225 (7) Free space on disk containing Updraft's temporary directory: 1365.8 MB
+3418.237 (7) Backup run: resumption=7, nonce=65c9d7fa86cb, begun at=1467754454 (3418s ago), job type=backup
+3418.244 (7) Scheduling a resumption (8) after 300 seconds (1467758172) in case this run gets aborted
+3418.259 (7) Checking if we have a zip executable available
+3418.270 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+3418.280 (7) Creation of backups of directories: already finished
+3418.286 (7) Saving backup status to database (elements: 8)
+3418.299 (7) Database dump (WordPress DB): Creation was completed already
+3418.313 (7) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3418.319 (7) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3418.323 (7) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3418.326 (7) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: others: This file has not yet been successfully uploaded: will queue
+3418.328 (7) backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/preet/sites/lcwpblog/webroot/wp-content/updraft/backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz)
+3418.335 (7) Recording as successfully uploaded: backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz (b452a10fdb98d018c0102859c0abac34)
+3418.344 (7) Saving backup history. Total backup size: Unknown
+3418.348 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+3418.352 (7) Cloud backup selection (1/1): email (last)
+3418.354 (7) Beginning dispatch of backup to remote (email)
+3418.356 (7) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: email to: preet...
+3418.499 (7) Mails were not sent successfully
+3418.506 (7) [Warning] backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: This backup archive is 34.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+3418.511 (7) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: email to: preet...
+3418.951 (7) Mails were not sent successfully
+3418.955 (7) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: email to: preet...
+3419.048 (7) Mails were not sent successfully
+3419.056 (7) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: email to: preet...
+3419.064 (7) Mails were not sent successfully
+3419.068 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+3419.071 (7) Number of backup sets in history: 2; groups (db): 1
+3419.073 (7) Examining (for databases) backup set with group_id=0, nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+3419.076 (7) This backup set is the backup set just made, so will not be deleted.
+3419.079 (7) Examining (for databases) backup set with group_id=0, nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+3419.080 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3419.082 (7) Number of backup sets in history: 2; groups (files): 1
+3419.083 (7) Examining (for files) backup set with nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+3419.085 (7) This backup set is the backup set just made, so will not be deleted.
+3419.087 (7) This backup set is the backup set just made, so will not be deleted.
+3419.087 (7) This backup set is the backup set just made, so will not be deleted.
+3419.087 (7) This backup set is the backup set just made, so will not be deleted.
+3419.087 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3419.089 (7) Examining (for files) backup set with nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+3419.093 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3419.096 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3419.100 (7) Resume backup (65c9d7fa86cb, 7): finish run
+3419.107 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3419.120 (7) The backup has not finished; a resumption is scheduled
+3809.905 (8) Opened log file at time: Tue, 05 Jul 2016 22:37:44 +0000 on http://lcwpblog.dev
+3809.910 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux PSG-SP2-U14043 3.19.0-64-generic #72~14.04.1-Ubuntu SMP Fri Jun 24 17:59:48 UTC 2016 x86_64) MySQL: 5.5.49 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.8M | 8M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+3809.916 (8) Free space on disk containing Updraft's temporary directory: 1357.8 MB
+3809.929 (8) Backup run: resumption=8, nonce=65c9d7fa86cb, begun at=1467754454 (3810s ago), job type=backup
+3809.936 (8) Scheduling a resumption (9) after 300 seconds (1467758564) in case this run gets aborted
+3809.950 (8) Checking if we have a zip executable available
+3809.956 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+3809.962 (8) Creation of backups of directories: already finished
+3809.968 (8) Saving backup status to database (elements: 8)
+3809.976 (8) Database dump (WordPress DB): Creation was completed already
+3809.981 (8) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3809.984 (8) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3809.987 (8) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3809.991 (8) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: others: This file has not yet been successfully uploaded: will queue
+3809.992 (8) backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/preet/sites/lcwpblog/webroot/wp-content/updraft/backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz)
+3809.996 (8) Recording as successfully uploaded: backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz (b452a10fdb98d018c0102859c0abac34)
+3810.009 (8) Saving backup history. Total backup size: Unknown
+3810.015 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+3810.024 (8) Cloud backup selection (1/1): email (last)
+3810.030 (8) Beginning dispatch of backup to remote (email)
+3810.037 (8) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: email to: preet...
+3810.271 (8) Mails were not sent successfully
+3810.279 (8) [Warning] backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: This backup archive is 34.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+3810.286 (8) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: email to: preet...
+3810.812 (8) Mails were not sent successfully
+3810.824 (8) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: email to: preet...
+3810.977 (8) Mails were not sent successfully
+3810.980 (8) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: email to: preet...
+3810.993 (8) Mails were not sent successfully
+3810.999 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+3811.004 (8) Number of backup sets in history: 2; groups (db): 1
+3811.007 (8) Examining (for databases) backup set with group_id=0, nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+3811.008 (8) This backup set is the backup set just made, so will not be deleted.
+3811.011 (8) Examining (for databases) backup set with group_id=0, nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+3811.012 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3811.015 (8) Number of backup sets in history: 2; groups (files): 1
+3811.016 (8) Examining (for files) backup set with nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+3811.019 (8) This backup set is the backup set just made, so will not be deleted.
+3811.023 (8) This backup set is the backup set just made, so will not be deleted.
+3811.023 (8) This backup set is the backup set just made, so will not be deleted.
+3811.024 (8) This backup set is the backup set just made, so will not be deleted.
+3811.024 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3811.026 (8) Examining (for files) backup set with nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+3811.027 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3811.031 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3811.044 (8) Resume backup (65c9d7fa86cb, 8): finish run
+3811.059 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3811.072 (8) The backup has not finished; a resumption is scheduled
+4361.749 (9) Opened log file at time: Tue, 05 Jul 2016 22:46:56 +0000 on http://lcwpblog.dev
+4361.756 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.13 WP: 4.5.2 PHP: 5.5.9-1ubuntu4.17 (Linux PSG-SP2-U14043 3.19.0-64-generic #72~14.04.1-Ubuntu SMP Fri Jun 24 17:59:48 UTC 2016 x86_64) MySQL: 5.5.49 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.6M | 9.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG: C ZipArchive::addFile: Y
+4361.762 (9) Free space on disk containing Updraft's temporary directory: 1359.5 MB
+4361.775 (9) Backup run: resumption=9, nonce=65c9d7fa86cb, begun at=1467754454 (4362s ago), job type=backup
+4361.781 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+4361.787 (9) Creation of backups of directories: already finished
+4361.794 (9) Saving backup status to database (elements: 8)
+4361.807 (9) Database dump (WordPress DB): Creation was completed already
+4361.820 (9) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4361.825 (9) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4361.831 (9) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4361.837 (9) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: others: This file has not yet been successfully uploaded: will queue
+4361.845 (9) backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home/preet/sites/lcwpblog/webroot/wp-content/updraft/backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz)
+4361.851 (9) Recording as successfully uploaded: backup_2016-07-05-1434_Lloyd_Constantine_65c9d7fa86cb-db.gz (b452a10fdb98d018c0102859c0abac34)
+4361.863 (9) Saving backup history. Total backup size: Unknown
+4361.867 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+4361.871 (9) Cloud backup selection (1/1): email (last)
+4361.875 (9) Beginning dispatch of backup to remote (email)
+4361.877 (9) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-plugins.zip: email to: preet...
+4361.984 (9) Mails were not sent successfully
+4361.987 (9) [Warning] backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: This backup archive is 34.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+4361.990 (9) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-themes.zip: email to: preet...
+4362.280 (9) Mails were not sent successfully
+4362.286 (9) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-uploads.zip: email to: preet...
+4362.373 (9) Mails were not sent successfully
+4362.377 (9) backup_2016-07-05-2134_Lloyd_Constantine_ac75e9d2f774-others.zip: email to: preet...
+4362.387 (9) Mails were not sent successfully
+4362.392 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+4362.394 (9) Number of backup sets in history: 2; groups (db): 1
+4362.396 (9) Examining (for databases) backup set with group_id=0, nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+4362.397 (9) This backup set is the backup set just made, so will not be deleted.
+4362.399 (9) Examining (for databases) backup set with group_id=0, nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+4362.400 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4362.402 (9) Number of backup sets in history: 2; groups (files): 1
+4362.403 (9) Examining (for files) backup set with nonce=65c9d7fa86cb, datestamp=1467754454 (Jul 05 2016 21:34:14)
+4362.405 (9) This backup set is the backup set just made, so will not be deleted.
+4362.407 (9) This backup set is the backup set just made, so will not be deleted.
+4362.407 (9) This backup set is the backup set just made, so will not be deleted.
+4362.408 (9) This backup set is the backup set just made, so will not be deleted.
+4362.408 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4362.411 (9) Examining (for files) backup set with nonce=31336be446d7, datestamp=1467662330 (Jul 04 2016 19:58:50)
+4362.413 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4362.416 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4362.422 (9) Resume backup (65c9d7fa86cb, 9): finish run
+4362.434 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4362.448 (9) Fetching RSS news feed
+4362.456 (9) Fetched RSS news feed; result is a: SimplePie
+4362.463 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 44.3 KB) to: preet...
+4362.477 (9) The backup attempt has finished, apparently unsuccessfully

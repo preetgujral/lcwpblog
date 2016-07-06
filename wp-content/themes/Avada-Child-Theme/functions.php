@@ -38,3 +38,21 @@ function add_my_post_types_to_query( $query ) {
 }
 
 add_action( 'pre_get_posts', 'add_my_post_types_to_query' );
+
+function featuredtoRSS($content) {
+global $post;
+if ( has_post_thumbnail( $post->ID ) ){
+$content = '<div>' . get_the_post_thumbnail( $post->ID, 'medium', array( 'style' => 'margin-bottom: 15px;' ) ) . '</div>' . $content;
+}
+return $content;
+}
+
+add_filter('the_excerpt_rss', 'featuredtoRSS');
+add_filter('the_content_feed', 'featuredtoRSS');
+
+function myfeed_request($qv) {
+	if (isset($qv['feed']) && !isset($qv['post_type']))
+		$qv['post_type'] = array('post', 'opeds', 'videos');
+	return $qv;
+}
+add_filter('request', 'myfeed_request');

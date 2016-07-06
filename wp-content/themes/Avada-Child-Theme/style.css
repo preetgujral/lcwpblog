@@ -17,3 +17,11 @@ Text Domain:  Avada
 .post-meta li:nth-of-type(1n+3) {
   display: none;
 }
+
+.mc4wp-form-fields {
+  text-align: center;
+}
+
+.mc4wp-response {
+  text-align: center;
+}
